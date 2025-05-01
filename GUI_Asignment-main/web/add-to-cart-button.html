@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Product</title>
+    </head>
+    <body>
+        <!-- Add this part into product page, some contents could be customized based on needs -->
+        <form action="UpdateCartServlet" method="post">
+            <input type="hidden" name="itemId" value ="I001"/>
+            <input type="number" name="quantity" value="1" min="1" max="999"/>
+            <input type="submit" value="Add to cart"/>
+        </form>
+    </body>
+</html>
